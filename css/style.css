@@ -1,5 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+
 body{
     font-family: "Cascadia Mono", sans-serif;
+    
 }
 
 
@@ -14,6 +22,10 @@ header{
     
 
 }
+header img{
+    transition: transform 0.3s ease-in-out;
+}
+
 
 header img:hover{
     transform: scale(1.1);
@@ -51,8 +63,94 @@ p{
     background-color: red;
     width: 20%;
     height: 2px;
+    margin-top: 2%;
     
 }
 
+.introducao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.introducao ul{
+    margin-top: 20px;
+}
+
+table{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+th{
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+    
+    
+}
+
+th:hover{
+    transform: scale(1.1);
+}
+
+td{
+    padding: 10px;
+}
+
+.texto-final p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+
+}
 
 
+a{
+    color: white;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 25px;
+}
+
+
+input{
+    width: 500px;
+    height: 30px;
+}
+
+.maior{
+    width: 500px;
+    height: 200px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    width: 10%;
+    height: 80px;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+button:hover{
+    transform: scale(1.1);
+}
